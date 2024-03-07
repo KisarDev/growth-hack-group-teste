@@ -33,8 +33,8 @@ export default function Navbar() {
       <div className="flex flex-col bg-black justify-center items-center w-full">
         <div className="flex w-[1200px] justify-between gap-12 uppercase text-white font-[Montserrat] text-[16px] h-[40px]">
           {data.props.categorias.map((categoria, index) => (
-            <ul className="flex flex-col" key={index}>
-              <li className="relative"
+            <ul className="flex flex-col cursor-pointer justify-center" key={index}>
+              <li className="relative hover:bg-red-700"
                 id={`categoria-${index}`}
                 onMouseEnter={(e) => handleCategoryMouseEnter(index)}
                 onMouseLeave={(e) => handleCategoryMouseLeave(index)}

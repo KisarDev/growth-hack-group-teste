@@ -5,9 +5,11 @@ export const data = {
                 nome: "Whey",
                 subcategorias: [
                     {
-                        nome: "Whey Isolado",
+                        nome: "Whey Isolado 1",
                         subcategorias: [
-                            { nome: "Morango" }
+                            { nome: "Morango 1" },
+                            { nome: "Banan 1" },
+                            { nome: "Baunilha 1" }
                         ]
                     },
                     {
@@ -34,17 +36,17 @@ export const data = {
                     {
                         nome: "Com Frutas",
                         subcategorias: [
-                            { nome: "Baunilha" },
-                            { nome: "Chocolate" },
-                            { nome: "Morango" }
+                            { nome: "maça verde" },
+                            { nome: "banana" },
+                            { nome: "morango" }
                         ]
                     },
                     {
                         nome: "De Chocolate",
                         subcategorias: [
-                            { nome: "Baunilha" },
-                            { nome: "Chocolate" },
-                            { nome: "Morango" }
+                            { nome: "chocolate com ninho" },
+                            { nome: "chocolate com morango" },
+                            { nome: "chocolate com baunilha" }
                         ]
                     }
                 ]
