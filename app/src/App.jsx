@@ -1,10 +1,18 @@
-import Navbar from "./components/navbar2/index"
+import { useState } from "react"
+import Header from "./components/header"
+import Navbar from "./components/navbar/index"
 
 function App() {
-
+  //
+  const [open, setOpen] = useState(false)
 
   return (
-    <Navbar />
+    <>
+
+      <Header setOpen={setOpen} open={open} />
+      <Navbar open={open} />
+
+    </>
   )
 }
 

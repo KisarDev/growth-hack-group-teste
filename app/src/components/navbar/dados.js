@@ -5,11 +5,11 @@ export const data = {
                 nome: "Whey",
                 subcategorias: [
                     {
-                        nome: "Whey Isolado 1",
+                        nome: "Whey Isolado",
                         subcategorias: [
-                            { nome: "Morango 1" },
-                            { nome: "Banan 1" },
-                            { nome: "Baunilha 1" }
+                            { nome: "Morango" },
+                            { nome: "Banana" },
+                            { nome: "Baunilha" }
                         ]
                     },
                     {
