@@ -3,6 +3,14 @@
 Este é um teste prático de habilidades para contratação, que consiste no desenvolvimento de um componente de menu em React. O componente deve aceitar um JSON de categorias e subcategorias como propriedade e exibir o menu de forma hierárquica, seguindo as instruções detalhadas nesse link: [https://github.com/Growth-Hack-Group-MercadoShops/teste-tecnico-estagio-front]
 # Tecnologias
 ### JS | TAILWINDCSS | VITE | REACT
+
+### Instalação:
+- Caso não tenha o node, instale: [https://nodejs.org/en]
+- Clone o repositório: [https://github.com/KisarDev/growth-hack-group-teste.git]
+- Navegue até o diretório app.
+- Faça a instalação dos pacotes, pode ser utilizar o: npm install
+- Se tiver dificuldades em fazer instalação: [https://docs.npmjs.com/cli/v8/commands/npm-install]
+- Para rodar o servidor localmente: npm run dev
 ### Minha idealização foi simular que eu estava fazendo uma navbar para a própria parceira da GHG a famosa: IntegralMédica:
 
 ### Revolucionando a Experiência de Navegação com uma Navbar Dinâmica com recursvidade de componente para IntegralMédica.
