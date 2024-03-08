@@ -1,32 +1,44 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
+/**
+ * ø Este componente é responsável por renderizar o icone/botão de hamburguer apenas para mobile.
+ * 
+ * ø Passo o estado para o ICON que é o menu de amburguer poder fechar e abrir o menu mobile e fazer a animação.
+ * 
+ * ø Erro do EsLint por não tipar, sem necessidades de tipagem para fins de tesde de habilidade.
+ *✔ Porem em um projeto real, com certeza TYPARIA.
+ */
 export default function Icon({ setOpen, open }) {
-    const [isActivate, setIsActivate] = useState(false);
 
+    /**
+     * ✔ Essa função está no onClick do elemento button HTML abaixo.
+     * 
+     * ✔ Quando ativada se o valor do estado OPEN for true ele troca para false e vice-versa.
+     */
     function handleClickButton() {
         setOpen(!open);
-        const button = document.querySelector('button:focus')
-        if (button) {
-            button.focus();
-        }
-
     }
 
+    // Dexei esse bloco de codigo do hook com o console log apenas com intuito de mostrar que eu poderia ter feito as animações e as funcionalidades do botão de uma forma diferente, sempre que o estado open trocasse seu valor para true ou false.
+    //Oque faz ? Fica ouvindo se o estado OPEN mudou de estado e se sim poderia aplicar uma lógica para fazer qualquer coisa com o botão.
     useEffect(() => {
-        // Lógica para manipular animações e transições com base no estado isActivate
-        // Por exemplo, você pode adicionar ou remover classes CSS com base em isActivate
         if (open) {
             // Ativar animações ou transições
+            // poderia fazer a lógica e a animação aqui, porem com um ternário resolvi, então em uma aplicação real ficaria mais simples.
             console.log('Ativar animações ou transições');
 
         } else {
             // Desativar animações ou transições
+            // Uma forma de segurança para o botão não ter a chance de bugar com o FOCUS do usuário, mas não é extremamente necessário.
             document.body.focus()
             console.log('Desativar botão')
         }
+        //fica ouvindo o estado open se ele mudar de estado ele executa os blocos de codigo acima.
+        //Se deixassemos o array vazio ele executaria apenas uma vez ao ser renderizado oque ocasionaria bugs.
     }, [open]);
 
     return (
+        //Botão de hamburguer para mobile.
         <div>
             <button onClick={handleClickButton} className={open ? "group relative" : "relative"}>
                 <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all border-black border ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
