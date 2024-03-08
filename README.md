@@ -17,6 +17,8 @@ Este é um teste prático de habilidades para contratação, que consiste no des
 
 ### Minha idealização foi simular que eu estava fazendo uma navbar para a própria parceira da GHG a famosa: IntegralMédica:
 
+![integralmedica](https://github.com/KisarDev/growth-hack-group-teste/assets/122934993/cd4aa41f-625a-4411-bdbe-6eb7cfc20aa2)
+
 ### Revolucionando a Experiência de Navegação com uma Navbar Dinâmica com recursvidade de componente para IntegralMédica.
 
 No universo altamente competitivo dos suplementos alimentares, cada detalhe faz a diferença. Como um entusiasta da tecnologia e da experiência do usuário (UX), mergulhei de cabeça no desafio proposto de criar uma Navbar dinâmica para um dos parceiros da empresa que me concedeu o teste - a renomada IntegralMédica, líder no segmento de suplementos no Brasil.
