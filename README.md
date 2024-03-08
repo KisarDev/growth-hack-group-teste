@@ -3,7 +3,8 @@
 Este é um teste prático de habilidades para contratação, que consiste no desenvolvimento de um componente de menu em React. O componente deve aceitar um JSON de categorias e subcategorias como propriedade e exibir o menu de forma hierárquica, seguindo as instruções detalhadas nesse link: [https://github.com/Growth-Hack-Group-MercadoShops/teste-tecnico-estagio-front]
 # Tecnologias
 ### JS | TAILWINDCSS | VITE | REACT
-# Minha idealização foi simular que eu estava fazendo uma navbar para a própria parceira da GHG a famosa: IntegralMédica:
+### Minha idealização foi simular que eu estava fazendo uma navbar para a própria parceira da GHG a famosa: IntegralMédica:
+
 ### Revolucionando a Experiência de Navegação com uma Navbar Dinâmica com recursvidade de componente para IntegralMédica.
 
 No universo altamente competitivo dos suplementos alimentares, cada detalhe faz a diferença. Como um entusiasta da tecnologia e da experiência do usuário (UX), mergulhei de cabeça no desafio proposto de criar uma Navbar dinâmica para um dos parceiros da empresa que me concedeu o teste - a renomada IntegralMédica, líder no segmento de suplementos no Brasil.
