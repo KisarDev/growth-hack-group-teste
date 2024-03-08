@@ -11,6 +11,10 @@ Este é um teste prático de habilidades para contratação, que consiste no des
 - Faça a instalação dos pacotes, pode ser utilizar o: npm install
 - Se tiver dificuldades em fazer instalação: [https://docs.npmjs.com/cli/v8/commands/npm-install]
 - Para rodar o servidor localmente: npm run dev
+
+### Arquivos para análise de codigo:
+![image](https://github.com/KisarDev/growth-hack-group-teste/assets/122934993/8aeedf1c-2952-493e-9831-280cd10546e4)
+
 ### Minha idealização foi simular que eu estava fazendo uma navbar para a própria parceira da GHG a famosa: IntegralMédica:
 
 ### Revolucionando a Experiência de Navegação com uma Navbar Dinâmica com recursvidade de componente para IntegralMédica.
